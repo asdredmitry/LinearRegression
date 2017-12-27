@@ -1,5 +1,5 @@
 function w = weights(zMatrix,y)
-  zMatrixT = zMatrix'
+  zMatrixT = zMatrix';
   zInv = zMatrixT*zMatrix;
   zInv = inv(zInv);
   zMatrix = zInv*zMatrixT;
